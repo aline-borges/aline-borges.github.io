@@ -1,12 +1,11 @@
 import React from 'react';
 import Container from '../components/containers/Container';
-import Header from '../components/header/Header';
-
+import Banner from '../components/banner/Banner';
 
 const Home = (props) => {
   return(
     <Container>
-      <Header/>
+      <Banner />
     </Container>
   );
 }
